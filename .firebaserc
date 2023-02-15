@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "najio-mad",
+    "najiomad": "najio-mad"
+  },
+  "targets": {},
+  "etags": {}
+}
