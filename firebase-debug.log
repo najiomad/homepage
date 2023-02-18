@@ -1,0 +1,41 @@
+[debug] [2023-02-18T15:41:24.007Z] ----------------------------------------------------------------------
+[debug] [2023-02-18T15:41:24.009Z] Command:       /usr/local/nvm/versions/node/v18.12.1/bin/node /usr/local/nvm/versions/node/v18.12.1/bin/firebase serve
+[debug] [2023-02-18T15:41:24.010Z] CLI Version:   11.22.0
+[debug] [2023-02-18T15:41:24.010Z] Platform:      linux
+[debug] [2023-02-18T15:41:24.010Z] Node Version:  v18.12.1
+[debug] [2023-02-18T15:41:24.010Z] Time:          Sat Feb 18 2023 15:41:24 GMT+0000 (Coordinated Universal Time)
+[debug] [2023-02-18T15:41:24.011Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-18T15:41:24.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-18T15:41:24.126Z] > authorizing via signed-in user (najiomad@gmail.com)
+[debug] [2023-02-18T15:41:24.126Z] [iam] checking project najio-mad for permissions ["firebase.projects.get"]
+[debug] [2023-02-18T15:41:24.127Z] > refreshing access token with scopes: []
+[debug] [2023-02-18T15:41:24.129Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-18T15:41:24.129Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-18T15:41:24.197Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-18T15:41:24.197Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-18T15:41:24.217Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/najio-mad:testIamPermissions [none]
+[debug] [2023-02-18T15:41:24.217Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/najio-mad:testIamPermissions x-goog-quota-user=projects/najio-mad
+[debug] [2023-02-18T15:41:24.218Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/najio-mad:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-02-18T15:41:25.002Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/najio-mad:testIamPermissions 200
+[debug] [2023-02-18T15:41:25.002Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/najio-mad:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-02-18T15:41:25.003Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad [none]
+[debug] [2023-02-18T15:41:25.222Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad 200
+[debug] [2023-02-18T15:41:25.222Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad {"projectId":"najio-mad","projectNumber":"669175756950","displayName":"najiomad","name":"projects/najio-mad","resources":{"hostingSite":"najio-mad","realtimeDatabaseInstance":"najio-mad-default-rtdb"},"state":"ACTIVE","etag":"1_2d18d766-50c5-4dc2-9be1-a52d13bcfbcd"}
+[info] 
+[info] === Serving from '/home/najiomad/homepage'...
+[info] 
+[debug] [2023-02-18T15:41:25.227Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/najio-mad/sites 
+[debug] [2023-02-18T15:41:25.843Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/najio-mad/sites 200
+[debug] [2023-02-18T15:41:25.843Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/najio-mad/sites {"sites":[{"name":"projects/najio-mad/sites/najio-mad","defaultUrl":"https://najio-mad.web.app","type":"DEFAULT_SITE"},{"name":"projects/najio-mad/sites/najiomad-contact","defaultUrl":"https://najiomad-contact.web.app","type":"USER_SITE"}]}
+[debug] [2023-02-18T15:41:25.844Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad/webApps/-/config [none]
+[debug] [2023-02-18T15:41:26.747Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad/webApps/-/config 200
+[debug] [2023-02-18T15:41:26.748Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad/webApps/-/config {"projectId":"najio-mad","appId":"1:669175756950:web:77a3b570c4df078c01aab7","databaseURL":"https://najio-mad-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"najio-mad.appspot.com","apiKey":"AIzaSyDbG5eMdG_WmgCDq1NzEezP3PaDKBxx0ng","authDomain":"najio-mad.firebaseapp.com","messagingSenderId":"669175756950","measurementId":"G-L746DNJZDM"}
+[debug] [2023-02-18T15:41:26.754Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad [none]
+[debug] [2023-02-18T15:41:26.963Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad 200
+[debug] [2023-02-18T15:41:26.963Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/najio-mad {"projectId":"najio-mad","projectNumber":"669175756950","displayName":"najiomad","name":"projects/najio-mad","resources":{"hostingSite":"najio-mad","realtimeDatabaseInstance":"najio-mad-default-rtdb"},"state":"ACTIVE","etag":"1_2d18d766-50c5-4dc2-9be1-a52d13bcfbcd"}
+[info] i  hosting[najio-mad]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[najio-mad]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] "GET /?authuser=3&redirectedPreviously=true HTTP/1.1" 200 - "https://ssh.cloud.google.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] \"GET /?authuser=3&redirectedPreviously=true HTTP/1.1\" 200 - \"https://ssh.cloud.google.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] "GET /css/style.css HTTP/1.1" 200 750 "https://5002-cs-c4588ac4-15de-4ff7-9faf-e8326be18cf0.cs-asia-east1-vger.cloudshell.dev/?authuser=3&redirectedPreviously=true" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] \"GET /css/style.css HTTP/1.1\" 200 750 \"https://5002-cs-c4588ac4-15de-4ff7-9faf-e8326be18cf0.cs-asia-east1-vger.cloudshell.dev/?authuser=3&redirectedPreviously=true\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] "GET /favicon.ico HTTP/1.1" 404 891 "https://5002-cs-c4588ac4-15de-4ff7-9faf-e8326be18cf0.cs-asia-east1-vger.cloudshell.dev/?authuser=3&redirectedPreviously=true" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/Feb/2023:15:41:32 +0000] \"GET /favicon.ico HTTP/1.1\" 404 891 \"https://5002-cs-c4588ac4-15de-4ff7-9faf-e8326be18cf0.cs-asia-east1-vger.cloudshell.dev/?authuser=3&redirectedPreviously=true\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15\""}}
