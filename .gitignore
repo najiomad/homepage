@@ -4,4 +4,6 @@
 *.jpeg
 *.zip
 
+!/public/images/icon.png
+
 .firebase/
