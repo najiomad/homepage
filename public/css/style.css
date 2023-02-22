@@ -38,10 +38,10 @@ nav a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    background-color: black;
-    color: #ffffff; /* 赤色 */
-  }
+nav ul li:hover {
+    background-color: #555;
+    color: #fff;
+}
 
 main {
     padding: 20px;
