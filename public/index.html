@@ -8,26 +8,25 @@
         <link rel="stylesheet" href="css/loader.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     </head>
-    <body>
-        <!--Loader animation-->
-        <div id="animation-box">
-            <!-- <div id="loader-wrapper">
-                <div id="loader"></div>
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
-            </div> -->
-        </div>
-
+    <body>      
         <header>
             <h1>NajioMad</h1>
         </header>
         <nav>
-        <ul>
-            <li><a href="profile/index.html">プロフィール</a></li>
-            <li><a href="resources/index.html">素材</a></li>
-            <li><a href="contact/index.html">連絡</a></li>
-        </ul>
+            <ul>
+                <li><a href="profile/index.html">プロフィール</a></li>
+                <li><a href="resources/index.html">素材</a></li>
+                <li><a href="contact/index.html">連絡</a></li>
+            </ul>
         </nav>
+
+        <!--loading animation-->
+
+        <div id="animation">
+            <p>読み込み中</p>
+            <div class="loading"></div>
+        </div>
+
         <p><strong>注意：現在ベータ版のサイトのため対応していないページが多々存在しますが、ご了承ください</strong></p>
         <main>
             <section id="about">
@@ -47,6 +46,6 @@
             <p>Copyright © 2023 NajioMad</p>
         </footer>
 
-        <script src="script/loader.js"></script>
+        <!-- <script src="script/loader.js"></script> -->
     </body>
 </html>
