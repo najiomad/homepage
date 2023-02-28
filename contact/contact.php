@@ -35,38 +35,41 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>連絡フォーム</title>
-    </head>
-    <body>
-        <header>
-            <h1>連絡フォーム</h1>
-        </header>
 
-        <!--loading animation-->
+<head>
+    <meta charset="utf-8">
+    <title>連絡フォーム</title>
+</head>
 
-        <div id="animation">
-            <!-- <p>読み込み中</p>
+<body>
+    <header>
+        <h1>連絡フォーム</h1>
+    </header>
+
+    <!--loading animation-->
+
+    <div id="animation">
+        <!-- <p>読み込み中</p>
             <div class="loading"></div> -->
+    </div>
+    <!-- お問い合わせフォーム -->
+    <form method="POST" action="">
+        <div>
+            <label for="name">お名前</label>
+            <input type="text" name="name" id="name" required>
         </div>
-        <!-- お問い合わせフォーム -->
-        <form method="POST" action="">
-            <div>
-                <label for="name">お名前</label>
-                <input type="text" name="name" id="name" required>
-            </div>
-            <div>
-                <label for="email">メールアドレス</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-                <label for="message">お問い合わせ内容</label>
-                <textarea name="message" id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit">送信する</button>
-        </form>
+        <div>
+            <label for="email">メールアドレス</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="message">お問い合わせ内容</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">送信する</button>
+    </form>
 
-        <script src="script/loader.js"></script>
-    </body>
+    <script src="script/loader.js"></script>
+</body>
+
 </html>

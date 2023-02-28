@@ -1,0 +1,23 @@
+/* FOR PC DEVICES */
+/* @media only screen and (min-width: 1281px) { */
+/* Your CSS codes goes here */
+/* .mobile {
+        display: none;
+    }
+} */
+
+/* FOR TABLET DEVICES */
+/* @media only screen and (min-width: 769px) and (max-width: 1280px) { */
+/* Your CSS codes goes here */
+/* .mobile {
+        display: none;
+    }
+} */
+
+/* FOR MOBILE DEVICES */
+/* @media only screen and (max-width: 768px) { */
+/* Your CSS codes goes here */
+/* .desktop {
+        display: none;
+    }
+} */

@@ -1,35 +1,35 @@
 form {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
-  
+
 label {
-    display: block;
-    margin-top: 1em;
-    font-size: 1.2em;
+  display: block;
+  margin-top: 1em;
+  font-size: 1.2em;
 }
-  
+
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1.2em;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2em;
 }
-  
+
 button[type="submit"] {
-    margin-top: 1em;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 1.2em;
-    cursor: pointer;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
 }
-  
+
 button[type="submit"]:hover {
-    background-color: #0062cc;
+  background-color: #0062cc;
 }
