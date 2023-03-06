@@ -6,7 +6,11 @@ body {
 
 a,
 p {
-  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a {
+  color: black;
 }
 
 header {
